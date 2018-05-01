@@ -9,7 +9,7 @@ bot.on('ready', function () {
     console.log("Je suis connecté !")
 
 
-}
+})
 
 bot.on('guildMemberAdd', member => {
     member.createDM().then(channel => {
