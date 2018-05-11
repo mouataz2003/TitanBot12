@@ -9,6 +9,7 @@
   "author": "mouatz2003",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "discord.js": "^11.3.2",
+    "discord.js-musicbot-addon":"^10.1.10"
   }
 }
