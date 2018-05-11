@@ -115,7 +115,7 @@ const Music = require('discord.js-musicbot-addon');
 
 
 const music = new Music(bot, {
-    prefix: "!",
+    prefix: "!?",
     maxQueueSize: "100",
     disableLoop: true,
     leaveHelp: "Bad help text.",
