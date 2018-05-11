@@ -18,7 +18,7 @@ bot.on('guildMemberAdd', member => {
 })
 
 bot.on('ready', function() {
-    bot.user.setActivity('t+help')
+    bot.user.setActivity('!help')
 
 })
 
@@ -109,5 +109,24 @@ if (command === 'kick') {
 
 
 })
+
+
+const Music = require('discord.js-musicbot-addon');
+
+
+const music = new Music(bot, {
+    prefix: "!",
+    maxQueueSize: "100",
+    disableLoop: true,
+    leaveHelp: "Bad help text.",
+    leaveAlt: ["lve","leev","un1c0rns"],
+    helpCmd: 'mhelp',
+    leaveCmd: 'begone',
+    ownerOverMember: true,
+    botOwner: '123456789101112',
+    youtubeKey: 'AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4'
+});
+
+
 
 bot.login(token);
