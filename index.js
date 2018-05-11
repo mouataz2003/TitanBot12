@@ -50,6 +50,17 @@ if (command === "help") {
                 name: "Command Is: ↓",
                 value:
                 "`1.` t+help\n`2.` t+avatar \n`3.` t+ping \n`4.` t+react \n`5.` t+server \n`6.` t+me \n`7.` t+kick \n`8.` t+fruits"
+                name: "Music Commands Is: ↓",
+                value:
+                "musichelp [command]: Displays help text for commands by this addon, or help for a specific command.\n"
+\n "play <url>|<search string>: Play audio from YouTube.\n"
+\n"skip [number]: Skip a song or multi songs with skip [some number],\n"
+\n"queue: Display the current queue.\n"
+\n"pause: Pause music playback.\n"
+\n"resume: Resume music playback.\n"
+\n"volume: Adjust the playback volume between 1 and 200.\n"
+\n"leave: Clears the song queue and leaves the channel.\n"
+\n"clearqueue: Clears the song queue."
             }]
     }
     })
